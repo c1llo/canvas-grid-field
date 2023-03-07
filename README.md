@@ -1,6 +1,6 @@
 # Canvas grid field 🌐
 
-Not sure what to call this? but though it was pretty cool and had a try recreating the effect!
+Not sure what to call this? but thought it was pretty cool and had a try recreating the effect!
 
 Use mouse/touch to interact.
 
