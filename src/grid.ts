@@ -75,7 +75,7 @@ const draw = (canvas: HTMLCanvasElement, mousePosition: Position) => {
             );
             const rotation = angleBetweenPositions({ x, y }, mousePosition);
             //normalise and invert then multiply to get size
-            const size = (1 - distanceFromMouse / maxDistance) * 10;
+            const size = 10 ** (1 - distanceFromMouse / maxDistance);
             drawPill(ctx, { x, y }, size, rotation);
         }
     }
